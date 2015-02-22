@@ -46,5 +46,5 @@ From the data set in step 4, create a second, independent tidy data set with the
 4. Open RStudio
 5. Ensure you have downloaded the dependencies (Check section `Dependent libraries`)
 6. Set your working directory where the R script is
-7. Execute `source("run_analyis.R")` or open the script in RStudio and click `Ctrl+Shift+S` (On Windows), or click `Source` on the top right of your R script window
+7. Execute `source("run_analysis.R")` or open the script in RStudio and click `Ctrl+Shift+S` (On Windows), or click `Source` on the top right of your R script window
 8. Finally, the script will execute and generate `Step5_tidy_data_set.txt`
