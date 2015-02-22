@@ -1,4 +1,6 @@
 # Coursera-GettingAndCleaningData
 Course Project
 
-  This is a test
+  void main() {
+    printf("Hello, World\n");
+  }
