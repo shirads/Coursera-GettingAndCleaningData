@@ -1,4 +1,6 @@
+## Working directory has to be the parent of the 'UCI HAR Dataset/' directory
 ## Dependencies: 'data.table' and 'reshapre2' packages
+
 require("data.table")
 require("reshape2")
 
@@ -77,7 +79,7 @@ data_labels <- setdiff(colnames(data), id_labels)
 # Create a data frame using melt, with id_labels as the variable names, and data_labels as values in each observation
 melt_data <- melt(data, id = id_labels, measure.vars = data_labels)
 
-# Apply mean function to dataset using dcast function
-tidy_data <- dcast(melt_data, subject + Activity_Label ~ variable, mean)
+# Use dcast to find the mean of the data set with respective to the 'subject' and 'label' variables
+tidy_data <- dcast(melt_data, subject + label ~ variable, mean)
 
-write.table(tidy_data, file = "./tidy_data.txt")
+write.table(tidy_data, file = "./Step5_tidy_data_set.txt", row.name = FALSE)
