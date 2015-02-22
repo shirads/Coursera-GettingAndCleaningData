@@ -24,7 +24,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - An identifier of the subject who carried out the experiment.
 
 ### Content of the downloaded/extracted dataset
-`Check section `Data set` in the README.md for more information`
+`Check section 'Data set' in the README.md for more information`
 
 - 'README.txt'
 
