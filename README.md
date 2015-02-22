@@ -1,6 +1,4 @@
-### Coursera-GettingAndCleaningData
-Course Project
+### Getting and Cleaning Data
+<hr size="10" noshade>
+### Peer Assessments - Course Project
 
-    void main() {
-        printf("Hello, World\n");
-        }
