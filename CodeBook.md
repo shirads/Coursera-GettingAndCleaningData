@@ -76,7 +76,8 @@ Below are the steps executed by `run_analysis.R` to get and clean the raw data, 
 5. Extract the mean and standard deviation using the features
 6. Merge the test data
 7. Repeat 3 -> 6 for the train data set
-8. Tidy the data
-9. Generate a tidy data set
+8. Melt the data
+9. Tidy the data
+10. Write the tidy data set to a file
  
-<b>`For a details description of the process, please refer to the comments in the 'run_analysis.R' script`</b>
+<b>`For a detailed description of the process, please refer to the comments in the 'run_analysis.R' script`</b>
