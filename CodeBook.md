@@ -1,6 +1,6 @@
 # CodeBook - `run_analysis.R`
 
-### Credits
+### Date set information
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
@@ -62,3 +62,21 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
 <b>P.S: Check section 'Data set' in the README.md for more information'</b>
+
+### Data transformation
+Please refer to section `Requirements` in `README.md`
+
+### Data processing
+Below are the steps executed by `run_analysis.R` to get and clean the raw data, then generat a tidy data set
+
+1. Read the features data set
+2. Read the activity data set
+3. Read the X test data set
+4. Read the Y test data set
+5. Extract the mean and standard deviation using the features
+6. Merge the test data
+7. Repeat 3 -> 6 for the train data set
+8. Tidy the data
+9. Generate a tidy data set
+ 
+<b>`For a details description of the process, please refer to the comments in the 'run_analysis.R' script`</b>
