@@ -1,4 +1,4 @@
-# CodeBook - `run_analyis.R`
+# CodeBook - `run_analysis.R`
 
 ### Credits
 Human Activity Recognition Using Smartphones Dataset
@@ -24,7 +24,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - An identifier of the subject who carried out the experiment.
 
 ### Content of the downloaded/extracted dataset
-`Check section 'Data set' in the README.md for more information`
+<b>`Check section 'Data set' in the README.md for more information`</b>
 
 - 'README.txt'
 
