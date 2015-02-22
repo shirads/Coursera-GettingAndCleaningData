@@ -12,3 +12,4 @@ The goal is to prepare tidy data that can be used for later analysis. To do so, 
 
 ### Dependent libraries
 `run_analysis.R` depends on two libraries: `data.table` and `reshape2`. It is assumed that you have already downloaded the packages. Othewise, download/install the libraries using `install.packages("data.table")` and `install.packages("reshape2)`. 
+ 
