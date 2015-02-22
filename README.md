@@ -1,4 +1,5 @@
 # Getting and Cleaning Data Project - Peer Assessments
+
 ### Purpose
 The purpose of this project is to demonstrate out ability to collect, work with, and clean a data set.
 
@@ -23,6 +24,16 @@ One of the most exciting areas in all of data science right now is wearable comp
 A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+### Requirements
+Create one R script called `run_analysis.R` that does the following:
+
+    1. Merges the training and the test sets to create one data set.
+    2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+    3. Uses descriptive activity names to name the activities in the data set
+    4. Appropriately labels the data set with descriptive variable names. 
+
+From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Dependent libraries
 `run_analysis.R` depends on two libraries: `data.table` and `reshape2`. It is assumed that you have already downloaded the packages. Othewise, download/install the libraries using `install.packages("data.table")` and `install.packages("reshape2)`. 
