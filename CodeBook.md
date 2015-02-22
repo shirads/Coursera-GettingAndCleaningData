@@ -24,7 +24,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - An identifier of the subject who carried out the experiment.
 
 ### Content of the downloaded/extracted dataset
-<b>`Check section 'Data set' in the README.md for more information`</b>
+The dataset includes the following files:
 
 - 'README.txt'
 
@@ -51,3 +51,5 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
+`P.S: <b>Check section 'Data set' in the README.md for more information/b>`
