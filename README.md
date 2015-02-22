@@ -38,3 +38,13 @@ From the data set in step 4, create a second, independent tidy data set with the
 ### Dependent libraries
 `run_analysis.R` depends on two libraries: `data.table` and `reshape2`. It is assumed that you have already downloaded the packages. Othewise, download/install the libraries using `install.packages("data.table")` and `install.packages("reshape2)`. 
  
+### How to use 'run_analysis.R'
+
+1. Download and extract the data set (The default extracted parent folder is called `getdata_projectfiles_UCI HAR Dataset`)
+2. Fork this repository then clone it locally
+3. Place the `run_analysis.R` script in the `getdata_projectfiles_UCI HAR Dataset\`
+4. Open RStudio
+5. Ensure you have downloaded the dependencies (Check section `Dependent libraries`)
+6. Set your working directory where the R script is
+7. Execute `source("run_analyis.R")` or open the script in RStudio and click `Ctrl+Shift+S` (On Windows), or click `Source` on the top rigt of your R script window
+8. Finally, the scrip will execute and generate `Step5_tidy_data_set.txt`
